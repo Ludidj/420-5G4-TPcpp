@@ -30,7 +30,7 @@ Book::Book()
 
 
 //getters
-public:
+
 
     string Book::getTitle() const {
 
@@ -86,28 +86,28 @@ borrowerId = id;
 
 
 //methpde checkout
-void checkOut(const string& borrowerId){
+void Book::checkOut(const string& borrowerId){
 
 this-> isAvailable = false;
 this-> borrowerId = borrowerId;}
 
 // retour de livre
-void returnBook(){
+void Book::returnBook(){
     this-> isAvailable = true;// redevient dispo
-this-> borrowerId = " ";}
+this-> borrowerId = "";}
 //tostring
-string toString() const {
+string Book::toString() const {
    
    if(isAvailable ){
-    cout <<"ce livre est disponible" ;
+    return "ce livre est disponible" ;
    }
     else {
-        cout << "ce livre est non - disponible ";
+        return"ce livre est non - disponible ";
     }
    }
 //file to format
- string toFileFormat() const{
-    string format ;
+ string Book::toFileFormat() const{
+    string format;
 
     format = title + "|" + author + "|" + isbn + "|";
     if (isAvailable == true){
@@ -118,23 +118,24 @@ string toString() const {
 
     }
     format = format + "|" + borrowerId;
-    return format
+    return format;
     }
  
 //from file format
 
-void fromFileFormat(const string& line){
+void Book::fromFileFormat(const string& line){
     string donnees[5];
     int index = 0;
 
-    for (int i = 0; i < line.length(); i++){
-        if (line[i] == "|") {
+    for (size_t i = 0; i < line.length(); i++){
+        if (line[i] == '|') {
             index ++;
         }
         else {
             donnees[index]= donnees[index] + line[i];
 
         }
+    }
         title = donnees[0];
     author = donnees[1];
     isbn = donnees[2];
@@ -148,4 +149,4 @@ void fromFileFormat(const string& line){
 
     borrowerId = donnees[4];
         }
-    }
+    
