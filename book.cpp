@@ -32,35 +32,77 @@ Book::Book()
 //getters
 public:
 
-    int getTitle() {
-        return title;
+    string Book::getTitle() const {
 
-        
-        }
+    return title;
+}
 
-    int getAuthor() {
-        return author;
+string Book::getAuthor() const {
 
-        
-        }
+return author;
+}
+
+string Book::getISBN() const {
     
+return isbn;
+}
+
+bool Book::getAvailability() const {
+    return isAvailable;
+}
+
+
+
+string Book::getBorrowerId() const {
+    return borrowerId;
+}
+
+    //setters
+
     
-    int getISBN() {
-        return isbn;
+void Book::setTitle(const string& title) {
+   
+   
+ this->title = title;
+}
 
-        
-        }
-    bool getAvailability() {
-        return isAvailable;
+void Book::setAuthor(const string& author) {
 
-        
-        }
-    string getBorrowerId() {
-        return borrowerId;
+ this->author = author;
+}
 
-        
-        }
-    
+void Book::setISBN(const string& isbn) {
+    this->isbn = isbn;
+}
 
-        
-    
+void Book::setAvailability(bool available) {
+
+    isAvailable = available;
+}
+
+void Book::setBorrowerId(const string& id) {
+borrowerId = id;
+}
+
+
+//methpde checkout
+void checkOut(const string& borrowerId){
+
+this-> isAvailable = false;
+this-> borrowerId = borrowerId;}
+
+// retour de livre
+void returnBook(){
+    this-> isAvailable = true;// redevient dispo
+this-> borrowerId = " ";}
+
+string toString() const {
+   
+   if(isAvailable ){
+    cout <<"ce livre est disponible" ;
+   }
+    else {
+        cout << "ce livre est non - disponible ";
+    }
+   }
+
