@@ -95,7 +95,7 @@ this-> borrowerId = borrowerId;}
 void returnBook(){
     this-> isAvailable = true;// redevient dispo
 this-> borrowerId = " ";}
-
+//tostring
 string toString() const {
    
    if(isAvailable ){
@@ -105,4 +105,47 @@ string toString() const {
         cout << "ce livre est non - disponible ";
     }
    }
+//file to format
+ string toFileFormat() const{
+    string format ;
 
+    format = title + "|" + author + "|" + isbn + "|";
+    if (isAvailable == true){
+        format += "1";
+    }
+    else {
+        format = format + "0";
+
+    }
+    format = format + "|" + borrowerId;
+    return format
+    }
+ 
+//from file format
+
+void fromFileFormat(const string& line){
+    string donnees[5];
+    int index = 0;
+
+    for (int i = 0; i < line.length(); i++){
+        if (line[i] == "|") {
+            index ++;
+        }
+        else {
+            donnees[index]= donnees[index] + line[i];
+
+        }
+        title = donnees[0];
+    author = donnees[1];
+    isbn = donnees[2];
+
+    if (donnees[3] == "1") {
+        isAvailable = true;
+    }
+    else {
+        isAvailable = false;
+    }
+
+    borrowerId = donnees[4];
+        }
+    }
