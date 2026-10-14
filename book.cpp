@@ -1,5 +1,4 @@
-#include "book.h"
-using namespace std;
+
 
 // constructeur book
 #include "book.h"
@@ -25,3 +24,43 @@ Book::Book()
     isAvailable = true;
     borrowerId = "";
 }
+
+// getters et setters
+
+
+
+//getters
+public:
+
+    int getTitle() {
+        return title;
+
+        
+        }
+
+    int getAuthor() {
+        return author;
+
+        
+        }
+    
+    
+    int getISBN() {
+        return isbn;
+
+        
+        }
+    bool getAvailability() {
+        return isAvailable;
+
+        
+        }
+    string getBorrowerId() {
+        return borrowerId;
+
+        
+        }
+    
+
+        
+    
