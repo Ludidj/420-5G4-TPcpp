@@ -10,6 +10,13 @@ Library::Library() {}
 
 // Add book to library
 void Library::addBook(const Book& book) {
+    for (const auto& l :books){
+        if(l ->getTitle() == book.getTitle() && l-> getAuthor() == book.getAuthor() && 
+    l->getISBN() == book.getISBN() ) {
+        cout<< "Ce livre existe deja";
+        return ; 
+    }
+    }
     books.push_back(make_unique<Book>(book));
 }
 
