@@ -5,12 +5,18 @@
 
 using namespace std;
 
+
 // Constructor
+
 FileManager::FileManager(const string& booksFile, const string& usersFile)
     : booksFileName(booksFile), usersFileName(usersFile) {}
-
 // Save all library data
 bool FileManager::saveLibraryData(Library& library) {
+    if (booksFileName.empty() || usersFileName.empty()) {
+        
+        return false;
+    }
+
     return saveBooksToFile(library) && saveUsersToFile(library);
 }
 

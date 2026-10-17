@@ -1,8 +1,12 @@
+
 #include <iostream>
 #include <algorithm>
+//include que jai ajoute rpour le journal
+#include <ctime>
+#include <iomanip>
 
 #include "library.h"
-
+#include <fstream>
 using namespace std;
 
 // Constructor
@@ -11,13 +15,27 @@ Library::Library() {}
 // Add book to library
 void Library::addBook(const Book& book) {
     for (const auto& l :books){
-        if(l ->getTitle() == book.getTitle() && l-> getAuthor() == book.getAuthor() && 
+        if(l ->getTitle()  ==  book.getTitle()  || l-> getAuthor()  == book.getAuthor()  ||
     l->getISBN() == book.getISBN() ) {
         cout<< "Ce livre existe deja";
         return ; 
     }
     }
     books.push_back(make_unique<Book>(book));
+
+    ofstream journal("data/journalActivitees.txt", ios::app);
+
+    if (journal.is_open()) {
+        time_t now = time(NULL);
+
+        journal << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S")
+        << " - [AJOUT LIVRE] "
+                << book.getTitle() << "|"
+                << book.getAuthor() << "|"
+                << book.getISBN()  << "\n";
+
+                journal.close();
+    }
 }
 
 // Remove book from library
@@ -29,6 +47,21 @@ bool Library::removeBook(const string& isbn) {
     
     if (it != books.end()) {
         books.erase(it);
+
+        ofstream journal("journalActivitees.txt", ios::app);
+
+        if (journal.is_open()) {
+            time_t maintenant = time(NULL);
+            struct tm* date = localtime(&maintenant);
+
+            char dateHeure[30];
+            strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
+
+            journal << dateHeure << " - [SUPPRESSION LIVRE] "
+                    << isbn << "\n";
+
+            journal.close();
+        }
         return true;
     }
     return false;
@@ -130,6 +163,21 @@ bool Library::checkOutBook(const string& isbn, const string& userId) {
     if (book && user && book->getAvailability()) {
         book->checkOut(user->getUserId());
         user->borrowBook(isbn);
+
+         ofstream journal("journal.txt", ios::app);
+
+        if (journal.is_open()) {
+            time_t maintenant = time(NULL);
+            struct tm* date = localtime(&maintenant);
+
+            char dateHeure[30];
+            strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
+
+            journal << dateHeure << " - [EMPRUNT] "
+                    << isbn << "|" << userId << "\n";
+
+            journal.close();
+        }
         return true;
     }
     return false;
@@ -148,6 +196,23 @@ bool Library::returnBook(const string& isbn) {
             }
         }
         book->returnBook();
+
+
+ofstream journal("journal.txt", ios::app);
+
+if (journal.is_open()) {
+    time_t maintenant = time(NULL);
+    struct tm* date = localtime(&maintenant);
+
+    char dateHeure[30];
+    strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
+
+    journal << dateHeure << " - [RETOUR LIVRE] "
+            << isbn << "\n";
+
+    journal.close();
+}
+
         return true;
     }
     return false;
@@ -155,15 +220,32 @@ bool Library::returnBook(const string& isbn) {
 
 // Display all books
 void Library::displayAllBooks() {
+
+    
+
     if (books.empty()) {
         cout << "Aucun livre dans la bibliothèque.\n";
         return;
     }
-    
+  sort(books.begin(), books.end(),
+        [](const unique_ptr<Book>& a, const unique_ptr<Book>& b) {
+            return a->getTitle() < b->getTitle();
+        }
+    ); 
+
     cout << "\n=== TOUS LES LIVRES ===\n";
     for (size_t i = 0; i < books.size(); ++i) {
         cout << "\nLivre " << (i + 1) << " :\n";
-        cout << books[i]->toString() << "\n";
+        cout << "Titre : " << books[i]->getTitle() << "\n";
+        cout << "Auteur : " << books[i]->getAuthor() << "\n";
+       
+
+        if (books[i]->getAvailability()) {
+            cout << "Statut : Disponible\n";
+        } else {
+            cout << "Statut : Non disponible\n";
+        }
+
         cout << "-------------------------\n";
     }
 }
