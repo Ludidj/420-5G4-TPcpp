@@ -48,7 +48,7 @@ bool Library::removeBook(const string& isbn) {
     if (it != books.end()) {
         books.erase(it);
 
-        ofstream journal("journalActivitees.txt", ios::app);
+        ofstream journal("data/journalActivitees.txt", ios::app);
 
         if (journal.is_open()) {
             time_t maintenant = time(NULL);
@@ -164,7 +164,7 @@ bool Library::checkOutBook(const string& isbn, const string& userId) {
         book->checkOut(user->getUserId());
         user->borrowBook(isbn);
 
-         ofstream journal("journal.txt", ios::app);
+         ofstream journal("data/journalActivitees.txt", ios::app);
 
         if (journal.is_open()) {
             time_t maintenant = time(NULL);
@@ -291,3 +291,7 @@ int Library::getAvailableBookCount() const {
         });
 }
 int Library::getCheckedOutBookCount() const { return getTotalBooks() - getAvailableBookCount(); }
+
+
+
+//eviter les doublon dans le journal

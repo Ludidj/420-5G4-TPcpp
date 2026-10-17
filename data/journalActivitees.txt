@@ -25,3 +25,146 @@
 2026-10-16 23:04:03 - [AJOUT LIVRE] fdhd|fg|fg
 2026-10-16 23:04:03 - [AJOUT LIVRE] jhfhf|ggf|d
 2026-10-16 23:04:18 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Petit Prince|Antoine de Saint-Exupéry|9782070612758
+2026-10-16 23:24:36 - [AJOUT LIVRE] Les Misérables|Victor Hugo|9782253096337
+2026-10-16 23:24:36 - [AJOUT LIVRE] L'Étranger|Albert Camus|9782070360024
+2026-10-16 23:24:36 - [AJOUT LIVRE] Madame Bovary|Gustave Flaubert|9782070413119
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Rouge et le Noir|Stendhal|9782070411326
+2026-10-16 23:24:36 - [AJOUT LIVRE] Germinal|Émile Zola|9782253004226
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Père Goriot|Honoré de Balzac|9782253085119
+2026-10-16 23:24:36 - [AJOUT LIVRE] Candide|Voltaire|9782070380015
+2026-10-16 23:24:36 - [AJOUT LIVRE] Les Fleurs du mal|Charles Baudelaire|9782070323087
+2026-10-16 23:24:36 - [AJOUT LIVRE] Bel-Ami|Guy de Maupassant|9782253005070
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Malade imaginaire|Molière|9782070380763
+2026-10-16 23:24:36 - [AJOUT LIVRE] Phèdre|Jean Racine|9782070380800
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Cid|Pierre Corneille|9782070380848
+2026-10-16 23:24:36 - [AJOUT LIVRE] Le Barbier de Séville|Beaumarchais|9782070380855
+2026-10-16 23:24:36 - [AJOUT LIVRE] La Princesse de Clèves|Madame de Lafayette|9782070360031
+2026-10-16 23:24:36 - [AJOUT LIVRE] Manon Lescaut|Abbé Prévost|9782070360048
+2026-10-16 23:24:36 - [AJOUT LIVRE] Atala|Chateaubriand|9782070360062
+2026-10-16 23:24:36 - [AJOUT LIVRE] Corinne|Madame de Staël|9782070360086
+2026-10-16 23:24:36 - [AJOUT LIVRE] Indiana|George Sand|9782070360093
+2026-10-16 23:24:36 - [AJOUT LIVRE] Maximes|La Rochefoucauld|9782070380987
+2026-10-16 23:24:36 - [AJOUT LIVRE] Pensées|Blaise Pascal|9782070380994
+2026-10-16 23:24:36 - [AJOUT LIVRE] Lettres persanes|Montesquieu|9782070381001
+2026-10-16 23:24:36 - [AJOUT LIVRE] fdhd|fg|fg
+2026-10-16 23:24:36 - [AJOUT LIVRE] jhfhf|ggf|d
+2026-10-16 23:24:36 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:29:54 - [AJOUT LIVRE] fsdg|fshfd|gsf
+2026-10-16 23:36:52 - [AJOUT LIVRE] vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Petit Prince|Antoine de Saint-Exupéry|9782070612758
+2026-10-16 23:38:29 - [AJOUT LIVRE] Les Misérables|Victor Hugo|9782253096337
+2026-10-16 23:38:29 - [AJOUT LIVRE] L'Étranger|Albert Camus|9782070360024
+2026-10-16 23:38:29 - [AJOUT LIVRE] Madame Bovary|Gustave Flaubert|9782070413119
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Rouge et le Noir|Stendhal|9782070411326
+2026-10-16 23:38:29 - [AJOUT LIVRE] Germinal|Émile Zola|9782253004226
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Père Goriot|Honoré de Balzac|9782253085119
+2026-10-16 23:38:29 - [AJOUT LIVRE] Candide|Voltaire|9782070380015
+2026-10-16 23:38:29 - [AJOUT LIVRE] Les Fleurs du mal|Charles Baudelaire|9782070323087
+2026-10-16 23:38:29 - [AJOUT LIVRE] Bel-Ami|Guy de Maupassant|9782253005070
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Malade imaginaire|Molière|9782070380763
+2026-10-16 23:38:29 - [AJOUT LIVRE] Phèdre|Jean Racine|9782070380800
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Cid|Pierre Corneille|9782070380848
+2026-10-16 23:38:29 - [AJOUT LIVRE] Le Barbier de Séville|Beaumarchais|9782070380855
+2026-10-16 23:38:29 - [AJOUT LIVRE] La Princesse de Clèves|Madame de Lafayette|9782070360031
+2026-10-16 23:38:29 - [AJOUT LIVRE] Manon Lescaut|Abbé Prévost|9782070360048
+2026-10-16 23:38:29 - [AJOUT LIVRE] Atala|Chateaubriand|9782070360062
+2026-10-16 23:38:29 - [AJOUT LIVRE] Corinne|Madame de Staël|9782070360086
+2026-10-16 23:38:29 - [AJOUT LIVRE] Indiana|George Sand|9782070360093
+2026-10-16 23:38:29 - [AJOUT LIVRE] Maximes|La Rochefoucauld|9782070380987
+2026-10-16 23:38:29 - [AJOUT LIVRE] Pensées|Blaise Pascal|9782070380994
+2026-10-16 23:38:29 - [AJOUT LIVRE] Lettres persanes|Montesquieu|9782070381001
+2026-10-16 23:38:29 - [AJOUT LIVRE] fdhd|fg|fg
+2026-10-16 23:38:29 - [AJOUT LIVRE] jhfhf|ggf|d
+2026-10-16 23:38:29 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:38:29 - [AJOUT LIVRE] fsdg|fshfd|gsf
+2026-10-16 23:38:29 - [AJOUT LIVRE] vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd
+2026-10-16 23:38:36 - [AJOUT LIVRE] hffghfd|djdfjhbysfdvbvdfcxg aebrsdfcc|dfgdssdgfdvgf
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Petit Prince|Antoine de Saint-Exupéry|9782070612758
+2026-10-16 23:42:35 - [AJOUT LIVRE] Les Misérables|Victor Hugo|9782253096337
+2026-10-16 23:42:35 - [AJOUT LIVRE] L'Étranger|Albert Camus|9782070360024
+2026-10-16 23:42:35 - [AJOUT LIVRE] Madame Bovary|Gustave Flaubert|9782070413119
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Rouge et le Noir|Stendhal|9782070411326
+2026-10-16 23:42:35 - [AJOUT LIVRE] Germinal|Émile Zola|9782253004226
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Père Goriot|Honoré de Balzac|9782253085119
+2026-10-16 23:42:35 - [AJOUT LIVRE] Candide|Voltaire|9782070380015
+2026-10-16 23:42:35 - [AJOUT LIVRE] Les Fleurs du mal|Charles Baudelaire|9782070323087
+2026-10-16 23:42:35 - [AJOUT LIVRE] Bel-Ami|Guy de Maupassant|9782253005070
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Malade imaginaire|Molière|9782070380763
+2026-10-16 23:42:35 - [AJOUT LIVRE] Phèdre|Jean Racine|9782070380800
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Cid|Pierre Corneille|9782070380848
+2026-10-16 23:42:35 - [AJOUT LIVRE] Le Barbier de Séville|Beaumarchais|9782070380855
+2026-10-16 23:42:35 - [AJOUT LIVRE] La Princesse de Clèves|Madame de Lafayette|9782070360031
+2026-10-16 23:42:35 - [AJOUT LIVRE] Manon Lescaut|Abbé Prévost|9782070360048
+2026-10-16 23:42:35 - [AJOUT LIVRE] Atala|Chateaubriand|9782070360062
+2026-10-16 23:42:35 - [AJOUT LIVRE] Corinne|Madame de Staël|9782070360086
+2026-10-16 23:42:35 - [AJOUT LIVRE] Indiana|George Sand|9782070360093
+2026-10-16 23:42:35 - [AJOUT LIVRE] Maximes|La Rochefoucauld|9782070380987
+2026-10-16 23:42:35 - [AJOUT LIVRE] Pensées|Blaise Pascal|9782070380994
+2026-10-16 23:42:35 - [AJOUT LIVRE] Lettres persanes|Montesquieu|9782070381001
+2026-10-16 23:42:35 - [AJOUT LIVRE] fdhd|fg|fg
+2026-10-16 23:42:35 - [AJOUT LIVRE] jhfhf|ggf|d
+2026-10-16 23:42:35 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:42:35 - [AJOUT LIVRE] fsdg|fshfd|gsf
+2026-10-16 23:42:35 - [AJOUT LIVRE] vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd
+2026-10-16 23:42:35 - [AJOUT LIVRE] hffghfd|djdfjhbysfdvbvdfcxg aebrsdfcc|dfgdssdgfdvgf
+2026-10-16 23:42:40 - [AJOUT LIVRE] sdgdfg|sfdhsfdhdfbfdhsdfh|hsfhdf
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Petit Prince|Antoine de Saint-Exupéry|9782070612758
+2026-10-16 23:50:44 - [AJOUT LIVRE] Les Misérables|Victor Hugo|9782253096337
+2026-10-16 23:50:44 - [AJOUT LIVRE] L'Étranger|Albert Camus|9782070360024
+2026-10-16 23:50:44 - [AJOUT LIVRE] Madame Bovary|Gustave Flaubert|9782070413119
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Rouge et le Noir|Stendhal|9782070411326
+2026-10-16 23:50:44 - [AJOUT LIVRE] Germinal|Émile Zola|9782253004226
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Père Goriot|Honoré de Balzac|9782253085119
+2026-10-16 23:50:44 - [AJOUT LIVRE] Candide|Voltaire|9782070380015
+2026-10-16 23:50:44 - [AJOUT LIVRE] Les Fleurs du mal|Charles Baudelaire|9782070323087
+2026-10-16 23:50:44 - [AJOUT LIVRE] Bel-Ami|Guy de Maupassant|9782253005070
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Malade imaginaire|Molière|9782070380763
+2026-10-16 23:50:44 - [AJOUT LIVRE] Phèdre|Jean Racine|9782070380800
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Cid|Pierre Corneille|9782070380848
+2026-10-16 23:50:44 - [AJOUT LIVRE] Le Barbier de Séville|Beaumarchais|9782070380855
+2026-10-16 23:50:44 - [AJOUT LIVRE] La Princesse de Clèves|Madame de Lafayette|9782070360031
+2026-10-16 23:50:44 - [AJOUT LIVRE] Manon Lescaut|Abbé Prévost|9782070360048
+2026-10-16 23:50:44 - [AJOUT LIVRE] Atala|Chateaubriand|9782070360062
+2026-10-16 23:50:44 - [AJOUT LIVRE] Corinne|Madame de Staël|9782070360086
+2026-10-16 23:50:44 - [AJOUT LIVRE] Indiana|George Sand|9782070360093
+2026-10-16 23:50:44 - [AJOUT LIVRE] Maximes|La Rochefoucauld|9782070380987
+2026-10-16 23:50:44 - [AJOUT LIVRE] Pensées|Blaise Pascal|9782070380994
+2026-10-16 23:50:44 - [AJOUT LIVRE] Lettres persanes|Montesquieu|9782070381001
+2026-10-16 23:50:44 - [AJOUT LIVRE] fdhd|fg|fg
+2026-10-16 23:50:44 - [AJOUT LIVRE] jhfhf|ggf|d
+2026-10-16 23:50:44 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:50:44 - [AJOUT LIVRE] fsdg|fshfd|gsf
+2026-10-16 23:50:44 - [AJOUT LIVRE] vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd
+2026-10-16 23:50:44 - [AJOUT LIVRE] hffghfd|djdfjhbysfdvbvdfcxg aebrsdfcc|dfgdssdgfdvgf
+2026-10-16 23:50:44 - [AJOUT LIVRE] sdgdfg|sfdhsfdhdfbfdhsdfh|hsfhdf
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Petit Prince|Antoine de Saint-Exupéry|9782070612758
+2026-10-16 23:50:58 - [AJOUT LIVRE] Les Misérables|Victor Hugo|9782253096337
+2026-10-16 23:50:58 - [AJOUT LIVRE] L'Étranger|Albert Camus|9782070360024
+2026-10-16 23:50:58 - [AJOUT LIVRE] Madame Bovary|Gustave Flaubert|9782070413119
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Rouge et le Noir|Stendhal|9782070411326
+2026-10-16 23:50:58 - [AJOUT LIVRE] Germinal|Émile Zola|9782253004226
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Père Goriot|Honoré de Balzac|9782253085119
+2026-10-16 23:50:58 - [AJOUT LIVRE] Candide|Voltaire|9782070380015
+2026-10-16 23:50:58 - [AJOUT LIVRE] Les Fleurs du mal|Charles Baudelaire|9782070323087
+2026-10-16 23:50:58 - [AJOUT LIVRE] Bel-Ami|Guy de Maupassant|9782253005070
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Malade imaginaire|Molière|9782070380763
+2026-10-16 23:50:58 - [AJOUT LIVRE] Phèdre|Jean Racine|9782070380800
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Cid|Pierre Corneille|9782070380848
+2026-10-16 23:50:58 - [AJOUT LIVRE] Le Barbier de Séville|Beaumarchais|9782070380855
+2026-10-16 23:50:58 - [AJOUT LIVRE] La Princesse de Clèves|Madame de Lafayette|9782070360031
+2026-10-16 23:50:58 - [AJOUT LIVRE] Manon Lescaut|Abbé Prévost|9782070360048
+2026-10-16 23:50:58 - [AJOUT LIVRE] Atala|Chateaubriand|9782070360062
+2026-10-16 23:50:58 - [AJOUT LIVRE] Corinne|Madame de Staël|9782070360086
+2026-10-16 23:50:58 - [AJOUT LIVRE] Indiana|George Sand|9782070360093
+2026-10-16 23:50:58 - [AJOUT LIVRE] Maximes|La Rochefoucauld|9782070380987
+2026-10-16 23:50:58 - [AJOUT LIVRE] Pensées|Blaise Pascal|9782070380994
+2026-10-16 23:50:58 - [AJOUT LIVRE] Lettres persanes|Montesquieu|9782070381001
+2026-10-16 23:50:58 - [AJOUT LIVRE] fdhd|fg|fg
+2026-10-16 23:50:58 - [AJOUT LIVRE] jhfhf|ggf|d
+2026-10-16 23:50:58 - [AJOUT LIVRE] googoo|gaagaa|1234
+2026-10-16 23:50:58 - [AJOUT LIVRE] fsdg|fshfd|gsf
+2026-10-16 23:50:58 - [AJOUT LIVRE] vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd
+2026-10-16 23:50:58 - [AJOUT LIVRE] hffghfd|djdfjhbysfdvbvdfcxg aebrsdfcc|dfgdssdgfdvgf
+2026-10-16 23:50:58 - [AJOUT LIVRE] sdgdfg|sfdhsfdhdfbfdhsdfh|hsfhdf
+2026-10-16 23:51:13 - [SUPPRESSION LIVRE] 9782070381001
