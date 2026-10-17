@@ -1,41 +1,48 @@
 
 #include <iostream>
 #include <algorithm>
-//include que jai ajoute rpour le journal
 #include <ctime>
 #include <iomanip>
-
 #include "library.h"
 #include <fstream>
+
+using namespace std;
+
 using namespace std;
 
 // Constructor
 Library::Library() {}
 
 // Add book to library
+
+ // Add book to library
 void Library::addBook(const Book& book) {
-    for (const auto& l :books){
-        if(l ->getTitle()  ==  book.getTitle()  || l-> getAuthor()  == book.getAuthor()  ||
-    l->getISBN() == book.getISBN() ) {
-        cout<< "Ce livre existe deja";
-        return ; 
+    for (const auto& l : books) {
+        if (l->getTitle() == book.getTitle() ||
+            l->getAuthor() == book.getAuthor() ||
+            l->getISBN() == book.getISBN()) {
+            cout << "Ce livre existe deja\n";
+            return;
+        }
     }
-    }
+
+    // Ajouter le livre dans la bibliothèque
     books.push_back(make_unique<Book>(book));
+
 
     ofstream journal("data/journalActivitees.txt", ios::app);
 
     if (journal.is_open()) {
-        time_t now = time(NULL);
+        time_t maintenant = time(nullptr);
 
-        journal << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S")
-        << " - [AJOUT LIVRE] "
+        journal << put_time(localtime(&maintenant), "%Y-%m-%d %H:%M:%S")
+                << " - [AJOUT LIVRE] "
                 << book.getTitle() << "|"
                 << book.getAuthor() << "|"
-                << book.getISBN()  << "\n";
+                << book.getISBN() << "\n";
 
-                journal.close();
-    }
+        journal.close();
+    } 
 }
 
 // Remove book from library
@@ -50,18 +57,15 @@ bool Library::removeBook(const string& isbn) {
 
         ofstream journal("data/journalActivitees.txt", ios::app);
 
-        if (journal.is_open()) {
-            time_t maintenant = time(NULL);
-            struct tm* date = localtime(&maintenant);
+if (journal.is_open()) {
+    time_t now = time(NULL);
 
-            char dateHeure[30];
-            strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
+    journal << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S")
+            << " - [SUPPRESSION LIVRE] "
+            << isbn << "\n";
 
-            journal << dateHeure << " - [SUPPRESSION LIVRE] "
-                    << isbn << "\n";
-
-            journal.close();
-        }
+    journal.close();
+}
         return true;
     }
     return false;
@@ -166,18 +170,15 @@ bool Library::checkOutBook(const string& isbn, const string& userId) {
 
          ofstream journal("data/journalActivitees.txt", ios::app);
 
-        if (journal.is_open()) {
-            time_t maintenant = time(NULL);
-            struct tm* date = localtime(&maintenant);
+if (journal.is_open()) {
+    time_t now = time(NULL);
 
-            char dateHeure[30];
-            strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
+    journal << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S")
+            << " - [EMPRUNT] "
+            << isbn << "|" << userId << "\n";
 
-            journal << dateHeure << " - [EMPRUNT] "
-                    << isbn << "|" << userId << "\n";
-
-            journal.close();
-        }
+    journal.close();
+}
         return true;
     }
     return false;
@@ -198,16 +199,13 @@ bool Library::returnBook(const string& isbn) {
         book->returnBook();
 
 
-ofstream journal("journal.txt", ios::app);
+ofstream journal("data/journalActivitees.txt", ios::app);
 
 if (journal.is_open()) {
-    time_t maintenant = time(NULL);
-    struct tm* date = localtime(&maintenant);
+    time_t now = time(NULL);
 
-    char dateHeure[30];
-    strftime(dateHeure, 30, "%Y-%m-%d %H:%M:%S", date);
-
-    journal << dateHeure << " - [RETOUR LIVRE] "
+    journal << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S")
+            << " - [RETOUR LIVRE] "
             << isbn << "\n";
 
     journal.close();

@@ -8,7 +8,6 @@ Le Père Goriot|Honoré de Balzac|9782253085119|1|
 Candide|Voltaire|9782070380015|1|
 Les Fleurs du mal|Charles Baudelaire|9782070323087|0|USR004
 Bel-Ami|Guy de Maupassant|9782253005070|0|USR005
-Le Malade imaginaire|Molière|9782070380763|1|
 Phèdre|Jean Racine|9782070380800|1|
 Le Cid|Pierre Corneille|9782070380848|0|USR006
 Le Barbier de Séville|Beaumarchais|9782070380855|1|
@@ -19,10 +18,7 @@ Corinne|Madame de Staël|9782070360086|1|
 Indiana|George Sand|9782070360093|0|USR010
 Maximes|La Rochefoucauld|9782070380987|1|
 Pensées|Blaise Pascal|9782070380994|0|USR014
+Lettres persanes|Montesquieu|9782070381001|1|
 fdhd|fg|fg|1|
 jhfhf|ggf|d|1|
 googoo|gaagaa|1234|1|
-fsdg|fshfd|gsf|1|
-vfddvfbzfbxgghgfghsfjhdfhg|ddd|dddd|1|
-hffghfd|djdfjhbysfdvbvdfcxg aebrsdfcc|dfgdssdgfdvgf|1|
-sdgdfg|sfdhsfdhdfbfdhsdfh|hsfhdf|1|
